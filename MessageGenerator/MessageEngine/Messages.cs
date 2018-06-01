@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Newtonsoft.Json;
+using AzureMessagingExplorer.MessageEngine;
+
+namespace AzureMessagingExplorer.MessageEngine
+{
+    static partial class Messages
+    {
+        public static IEnumerable<string> CreateMessages(int numOfMessages, string scheme)
+        {
+            string[] messages = new string[numOfMessages];
+
+            switch (scheme.ToLower())
+            {
+                case "ninjaattack":
+                    messages = CreateNinjaMessages(numOfMessages);
+                    break;
+                default:
+                    for (int i = 0; i < numOfMessages; i++)
+                    {
+                        var data = new { message = $"Message {i}" };
+                        messages[i] = JsonConvert.SerializeObject(data);
+                    }
+                    break;
+            }
+            return new List<string>(messages);
+        }
+    }
+}

@@ -1,0 +1,208 @@
+﻿{
+  "goodNinjas": ["The Invisible Grin", "The Winged Fire", "The Golden Samaritan", "Thundereyes", "The Masked Watcher", "Kido Yazaemon" ,"Kirigakure Saizo", "Tomo Sukesada", "Fujibayashi Naga", "Hattori Hanzo"],
+  "badNinjas": ["The Muzzled Demon", "The Phantom Dagger",  "Bloodmark", "Scarlet Shiv", "Ishikawa Goemon", "Momochi Sandayu", "Fuma Kotaro", "Kato Danzo", "Mochizuki Chiyome"],
+  "weapons": [
+        {
+      "name": "Tai-Jutsu",
+      "actions": [
+        {
+          "name": "eye gouge",
+          "points": 15
+        },
+        {
+          "name": "groin kick",
+          "points": 10
+        },
+        {
+          "name": "throat chop",
+          "points": 10
+        },
+	{
+          "name": "pressure point strike",
+          "points": 10
+        },
+	{
+          "name": "choke hold",
+          "points": 10
+        },
+        {
+          "name": "five fingered death punch",
+          "points": 30
+        },
+        {
+          "name": "poison buddah palm",
+          "points": 30
+        },
+        {
+          "name": "rodent revenge strike",
+          "points": 30
+        },
+        {
+          "name": "monkey steals the peaches",
+          "points": 35
+        }
+      ]
+    },
+	{
+      "name": "shruikan",
+      "actions": [
+        {
+          "name": "to the face",
+          "points": 10
+        },
+        {
+          "name": "to the body",
+          "points": 5
+        },
+        {
+          "name": "to the hand",
+          "points": 10
+        },
+	{
+          "name": "to the leg",
+          "points": 5
+        },
+	{
+          "name": "to the arm",
+          "points": 5
+        },
+        {
+          "name": "to the foot",
+          "points": 10
+        }
+      ]
+    },
+	{
+      "name": "Kama",
+      "actions": [
+        {
+          "name": "sliced",
+          "points": 10
+        },
+        {
+          "name": "hooked",
+          "points": 10
+        },
+        {
+          "name": "slammed",
+          "points": 10
+        },
+        {
+          "name": "stabbed",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "name": "nunchucks",
+      "actions": [
+        {
+          "name": "upper cut",
+          "points": 10
+        },
+        {
+          "name": "temple strike",
+          "points": 10
+        },
+	{
+          "name": "hand strike",
+          "points": 10
+        },
+        {
+          "name": "elbow strike",
+          "points": 10
+        },
+        {
+          "name": "collar bone strike",
+          "points": 10
+        },
+        {
+          "name": "knee strike",
+          "points": 10
+        },
+        {
+          "name": "groin strike",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "name": "staff",
+      "actions": [
+        {
+          "name": "downward strike",
+          "points": 20
+        },
+        {
+          "name": "upward strike",
+          "points": 20
+        },
+        {
+          "name": "sweep",
+          "points": 10
+        },
+        {
+          "name": "throat thrust",
+          "points": 20
+        },
+        {
+          "name": "solar plexus thrust",
+          "points": 10
+        },
+   	{
+          "name": "temple strike",
+          "points": 20
+        },
+	{
+          "name": "hand strike",
+          "points": 20
+        },
+        {
+          "name": "elbow strike",
+          "points": 20
+        },
+        {
+          "name": "collar bone strike",
+          "points": 20
+        },
+        {
+          "name": "knee strike",
+          "points": 20
+        },
+        {
+          "name": "groin strike",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "name": "katana",
+      "actions": [
+        {
+          "name": "arm stabbed",
+          "points": 15
+        },
+       {
+          "name": "leg stabbed",
+          "points": 15
+        },
+        {
+          "name": "body stabbed",
+          "points": 20
+        },
+        {
+          "name": "rising slice",
+          "points": 10
+        },
+	{
+          "name": "falling slice",
+          "points": 10
+        },
+        {
+          "name": "critical cut",
+          "points": 30
+        }
+      ]
+    }
+  ]
+}
